@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+:root{
+    --color01:#573824;
+    --color02:#F0E8C2;
+    --color03:#291b1a;
+    --color04:#573A37;
+    --color05:#f0e8c2;
+
+    --font-destaque:'Alice', cursive;
+}
+
+body{
+    font-family: var(--font-destaque);
+    
+}
+
+
+img{
+border-radius: 16px;
+}
+
+main{
+
+min-width: 70%;
+max-width: 300px;
+padding: 60px;
+    
+}
