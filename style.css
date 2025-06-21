@@ -8,6 +8,8 @@
     --color05:#f0e8c2;
 
     --font-destaque:'Alice', cursive;
+    line-height: 150%;
+    color: var(--color04);
 }
 
 body{
@@ -31,8 +33,18 @@ img{
 border-radius: 16px;
 }
 
-main{
+h1{
+    line-height: 140%;
+    font-size: 40px;
+    color: var(--color03);
+}
 
+h2{
+  font-size: 24px; 
+  color: var(--color03);
+}
 
-    
+footer{
+    text-align: center;
+    color:var(--color05)
 }
