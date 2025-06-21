@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --color01:#573824;
     --color02:#F0E8C2;
@@ -8,14 +13,12 @@
     --color05:#f0e8c2;
 
     --font-destaque:'Alice', cursive;
-    line-height: 150%;
     color: var(--color04);
 }
 
 body{
     font-family: var(--font-destaque);
     background-image: url(img/fundo.png);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -24,9 +27,20 @@ body{
     padding: 24px;
     background-color: var(--color02);
     width: 800px;
-    height: 1440px;
     border-radius: 24px;
     margin: 48px auto;
+}
+
+main{
+    padding: 24px;
+}
+
+section + section{
+    margin-top: 24px;
+}
+
+#about p + p{
+    margin-top: 12px;
 }
 
 img{
@@ -42,6 +56,16 @@ h1{
 h2{
   font-size: 24px; 
   color: var(--color03);
+
+}
+
+h1, h2{
+     margin-bottom: 4px;
+     line-height: 150%;
+}
+
+ul{
+    padding-left: 26px;
 }
 
 footer{
